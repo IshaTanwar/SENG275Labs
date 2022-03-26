@@ -1,0 +1,16 @@
+Title: Problem generating a BC Licence Plate Message
+Submitter: Isha Tanwar
+email address: ishaskib@gmail.com
+
+Summary of bug: A BC Licence Plate Message "1-234-A" has 7 characters with 2 hyphens
+                but is still being accepted as a valid message.
+
+Expected behaviour: False (invalid Message)
+
+Actual behaviour: True (Valid Message)
+
+Steps to Reproduce: Test with input string: "1-234-A" and motorcycle: "False", gives
+                    True.
+
+Severity: Bug capable of accepting invalid BC licence Plate Messages, eventually
+          creating problems in how BC Licence Plate message system works.
