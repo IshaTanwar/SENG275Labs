@@ -1,0 +1,22 @@
+Which standards tool did you use?
+Lighthouse
+
+
+
+Name any one test that passed, and describe why that test is important, in your own words.
+What would be the problem if the test had failed?
+Passed Test (Green): Uses HTTPS
+Why important: Avoids mixed content and protects the integrity and confidentiality of data
+               between user's computer and the site
+Problem if it failed: Attack's can steal data and high risk of getting mixed data
+
+
+Name any one test that failed (yellow or red) and explain why the failed test suggest
+there's a problem with the website.  Who is it a problem for?  What kinds of obstacles
+could this issue present?
+Failed Test (Red): Avoid an excessive DOM size;
+Why a problem: Too many (DOM nodes) HTML tags on page causes increased memory usage and
+               delay on getting the web page.
+Who is the problem for: Browser because while loading a page with excessive DOM nodes
+                        ,a browser will need more computing power to render the page
+Obstacles: High memory usage and delay in page rendering
